@@ -1,5 +1,5 @@
 #Brute Force Method
-#time complexity --> O(n^2)
+#time complexity --> O(n^3)
 #Space complexity --> O(n)
 
 class Solution:
