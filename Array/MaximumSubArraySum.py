@@ -1,10 +1,9 @@
 #Brute Force Method
 #time complexity --> O(n^3)
 #Space complexity --> O(n)
-
+import math
 class Solution:
     def maxSubArraySum(self,l,N):
-        import math
         c=-math.inf
         s=0
         for i in range(len(l)):
@@ -15,7 +14,6 @@ class Solution:
                 if c<s:
                     c=s
         return c
-    
 import math
 
  
